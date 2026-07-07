@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - PureNote</title>
+
+    <title>PureNote Privacy Policy</title>
+    <meta name="description" content="PureNote Privacy Policy. Learn how PureNote protects your privacy with offline-first local storage.">
+
     <style>
         :root {
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
+            --bg-color: #ffffff;
             --text-color: #0f172a;
             --text-muted: #64748b;
-            --accent-color: #0284c7;
             --border-color: #e2e8f0;
+            --card-bg: #f8fafc;
+            --accent-color: #E68B25;
         }
 
         * {
@@ -33,17 +37,19 @@
             padding: 0 1.5rem;
         }
 
-        /* Navbar */
+
         nav {
             background-color: #ffffff;
             padding: 1.5rem 0;
             border-bottom: 1px solid var(--border-color);
         }
+
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
         .logo {
             font-size: 1.5rem;
             font-weight: 800;
@@ -51,39 +57,38 @@
             text-decoration: none;
             color: var(--text-color);
         }
+
         .logo span {
             color: var(--accent-color);
         }
+
         .nav-links a {
             color: var(--text-muted);
             text-decoration: none;
             font-size: 0.95rem;
             font-weight: 500;
-            transition: color 0.2s;
         }
-        .nav-links a:hover {
-            color: var(--text-color);
-        }
+
 
         header {
             background-color: #ffffff;
             text-align: center;
-            margin: 0 0 3rem 0;
-            padding: 4rem 0 2rem 0;
+            padding: 4rem 0 2rem;
             border-bottom: 1px solid var(--border-color);
+            margin-bottom: 3rem;
         }
+
 
         h1 {
             font-size: 2rem;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.03em;
+            margin-bottom: .5rem;
             color: #0f172a;
         }
 
         .date {
             color: var(--text-muted);
-            font-size: 0.95rem;
         }
+
 
         .intro-box {
             background-color: var(--card-bg);
@@ -91,12 +96,13 @@
             padding: 1.25rem;
             border-radius: 4px 12px 12px 4px;
             margin-bottom: 2.5rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
         }
+
 
         section {
             margin-bottom: 2.5rem;
         }
+
 
         h2 {
             color: var(--accent-color);
@@ -104,22 +110,26 @@
             margin-bottom: 1rem;
         }
 
+
         p {
             margin-bottom: 1rem;
             color: #475569;
         }
 
+
         ul {
-            list-style-type: none;
+            list-style: none;
             margin-bottom: 1.5rem;
         }
+
 
         li {
             position: relative;
             padding-left: 1.5rem;
-            margin-bottom: 0.75rem;
+            margin-bottom: .75rem;
             color: #475569;
         }
+
 
         li::before {
             content: "•";
@@ -129,9 +139,11 @@
             left: 0;
         }
 
+
         strong {
             color: var(--text-color);
         }
+
 
         .security-tip {
             background: #ffffff;
@@ -139,124 +151,358 @@
             padding: 1.5rem;
             border-radius: 12px;
             margin-top: 3rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
         }
+
 
         footer {
             text-align: center;
-            padding: 4rem 0 3rem 0;
+            padding: 4rem 0 3rem;
             color: var(--text-muted);
-            font-size: 0.9rem;
             border-top: 1px solid var(--border-color);
             margin-top: 4rem;
-            background-color: #ffffff;
         }
 
-        footer a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
     </style>
+
 </head>
+
+
 <body>
 
-    <nav>
-        <div class="container nav-container">
-            <a href="index.html" class="logo">Pure<span>Note</span></a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-            </div>
-        </div>
-    </nav>
 
-    <header>
-        <div class="container">
-            <h1>Privacy Policy</h1>
-            <div class="date">Last Updated: July 7, 2026</div>
+<nav>
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            Pure<span>Note</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
         </div>
-    </header>
+
+    </div>
+</nav>
+
+
+
+<header>
 
     <div class="container">
-        <div class="intro-box">
-            At PureNote, we take your privacy seriously. This Privacy Policy explains our "Offline-First" philosophy and how we protect your data.
+
+        <h1>Privacy Policy</h1>
+
+        <div class="date">
+            Last Updated: July 7, 2026
         </div>
 
-        <section>
-            <h2>1. Data Collection Philosophy</h2>
-            <p>PureNote is designed to be a private, secure, and offline-first note-taking application.</p>
-            <ul>
-                <li><strong>No Account Required:</strong> You do not need to create an account to use the app.</li>
-                <li><strong>No Data Harvesting:</strong> We do not collect, store, or sell your personal data.</li>
-                <li><strong>No Analytics:</strong> We do not use third-party tracking or analytics services to monitor your usage.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>2. Information We Do NOT Collect</h2>
-            <p>We do not have access to, nor do we collect:</p>
-            <ul>
-                <li>Your notes, titles, or attachments (photos, audio recordings).</li>
-                <li>Your master PIN, passwords, or recovery keys.</li>
-                <li>Your device identifiers or location data.</li>
-                <li>Any metadata associated with your notes.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3. Data Storage and Encryption</h2>
-            <p>All data you create within PureNote is stored locally on your device.</p>
-            <ul>
-                <li><strong>Local Storage:</strong> Your notes and settings are stored in a local database (Isar) on your device's internal storage.</li>
-                <li><strong>Encryption:</strong> Notes marked as "Locked" are encrypted using industry-standard AES-256-GCM encryption. The encryption keys are managed by your device's secure hardware (Keystore/Keychain).</li>
-                <li><strong>Media:</strong> Photos and voice recordings are stored in a private directory on your device and are not accessible by other applications.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>4. Backups and Cloud Synchronization</h2>
-            <p>PureNote provides features for you to back up your data, but you maintain full control over where that data goes.</p>
-            <ul>
-                <li><strong>Local Backups:</strong> If you create a backup file, it is saved to a location you choose on your device or external storage.</li>
-                <li><strong>Cloud Sync (Optional):</strong> If you enable synchronization features (e.g., Google Drive), your data is uploaded directly from your device to your private cloud storage. We never see or handle this data. It is subject to the privacy policy of the cloud provider you choose.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>5. Device Permissions</h2>
-            <p>PureNote may request the following permissions to provide specific features:</p>
-            <ul>
-                <li><strong>Microphone:</strong> Required for voice notes and dictation.</li>
-                <li><strong>Storage/Media:</strong> Required to save attachments and export backups.</li>
-                <li><strong>Biometrics:</strong> Required if you choose to use Fingerprint or Face ID to unlock your Vault.</li>
-                <li><strong>Notifications:</strong> Required for note reminders.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>6. Children's Privacy</h2>
-            <p>Because we do not collect any information, PureNote is safe for all ages. We do not knowingly collect personal information from children.</p>
-        </section>
-
-        <section>
-            <h2>7. Changes to This Policy</h2>
-            <p>We may update our Privacy Policy from time to time. However, our core philosophy of "No Data Collection" will remain. Any changes will be reflected in the "Last Updated" date at the top of this document.</p>
-        </section>
-
-        <section>
-            <h2>8. Contact Us</h2>
-            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <strong>support@yourdomain.com</strong></p>
-        </section>
-
-        <div class="security-tip">
-            <p><strong>🔒 Security Reminder:</strong> As PureNote is a local-only tool, your data is as secure as your device. We recommend using a strong master PIN and keeping your recovery key in a safe place.</p>
-        </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 PureNote App. All rights reserved.</p>
-        </div>
-    </footer>
+</header>
+
+
+
+
+<div class="container">
+
+
+<div class="intro-box">
+
+    PureNote respects your privacy. PureNote is an offline-first note-taking application designed to keep your personal data stored locally on your device and under your control.
+
+</div>
+
+
+
+<section>
+
+<h2>1. Privacy Philosophy</h2>
+
+<p>
+PureNote is designed as a private, secure, and offline-first notebook application.
+We minimize data collection and do not operate servers that store your personal notes.
+</p>
+
+
+<ul>
+
+<li>
+<strong>No Account Required:</strong>
+You can use PureNote without creating an account.
+</li>
+
+<li>
+<strong>No Data Collection:</strong>
+We do not collect, sell, or share your notes or personal content.
+</li>
+
+<li>
+<strong>No Tracking:</strong>
+PureNote does not use advertising trackers or third-party analytics services.
+</li>
+
+</ul>
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>2. Information We Do Not Collect</h2>
+
+<p>
+PureNote does not have access to or collect:
+</p>
+
+
+<ul>
+
+<li>Your notes, journals, checklists, or personal writings.</li>
+
+<li>Your photos, voice recordings, or attached files.</li>
+
+<li>Your PIN, passwords, biometric data, or recovery information.</li>
+
+<li>Your location or device identifiers.</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>3. Local Storage and Protection</h2>
+
+
+<p>
+All content created in PureNote is stored locally on your device.
+Your notes are not uploaded to PureNote servers.
+</p>
+
+
+<ul>
+
+<li>
+<strong>Local Storage:</strong>
+Notes, settings, and application data are stored on your device.
+</li>
+
+
+<li>
+<strong>Secure Vault:</strong>
+Notes marked as protected are secured using encryption and device security features.
+</li>
+
+
+<li>
+<strong>Media:</strong>
+Photos and voice recordings are stored locally and are not sent to PureNote.
+</li>
+
+
+</ul>
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>4. Backup and Export</h2>
+
+
+<p>
+PureNote provides local backup and export features while keeping control of your data with you.
+</p>
+
+
+<ul>
+
+
+<li>
+<strong>Local Backup:</strong>
+Backup files are created locally and saved to a location selected by you.
+</li>
+
+
+<li>
+<strong>Export:</strong>
+You can export notes as PDF, Markdown, HTML, or JSON files.
+</li>
+
+
+<li>
+<strong>Export Files:</strong>
+Exported files are standard files managed by the user and may not have the same protection as Secure Vault notes.
+</li>
+
+
+<li>
+<strong>User Responsibility:</strong>
+Users are responsible for protecting exported files and keeping important backups.
+</li>
+
+
+</ul>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>5. Data Loss Responsibility</h2>
+
+
+<p>
+Because PureNote stores data locally on your device, users should maintain backups of important information.
+</p>
+
+
+<p>
+PureNote cannot guarantee recovery of data lost due to accidental deletion, device damage, device reset, operating system problems, or application removal.
+</p>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>6. Device Permissions</h2>
+
+
+<ul>
+
+<li>
+<strong>Microphone:</strong>
+Used for voice recording and speech-to-text features.
+</li>
+
+
+<li>
+<strong>Photos and Media:</strong>
+Used when adding attachments or exporting notes.
+</li>
+
+
+<li>
+<strong>Biometrics:</strong>
+Used only when you enable fingerprint or Face ID protection.
+</li>
+
+
+<li>
+<strong>Notifications:</strong>
+Used for reminders when enabled.
+</li>
+
+
+</ul>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>7. Children's Privacy</h2>
+
+
+<p>
+PureNote does not knowingly collect personal information from children or users.
+All user-created data remains on the user's device.
+</p>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>8. Changes to This Policy</h2>
+
+
+<p>
+We may update this Privacy Policy from time to time.
+Changes will be reflected by updating the Last Updated date.
+</p>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>9. Contact Us</h2>
+
+
+<p>If you have any questions , please contact us at 
+<a href="mailto:isaapps.support@protonmail.com">isaapps.support@protonmail.com</a>.</p>
+
+
+</section>
+
+
+
+
+
+<div class="security-tip">
+
+<p>
+<strong>🔒 Security Reminder:</strong>
+Your data is stored locally on your device.
+Keep your device secure and protect your recovery information.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 PureNote App. All rights reserved.
+</p>
+
+</div>
+
+</footer>
+
+
 
 </body>
+
 </html>
